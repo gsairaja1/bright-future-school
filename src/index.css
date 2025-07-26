@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Nunito", sans-serif;
+}
+
+body {
+  background: #F8FAFC;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn {
+  padding: 14px 25px;
+  border-radius: 30px;
+  background: #4F46E5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(79, 70, 229, 0.2);
+}
+
+.btn:hover {
+  background: #3730A3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.3);
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn.dark-btn {
+  background: #059669;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(5, 150, 105, 0.2);
+}
+
+.btn.dark-btn:hover {
+  background: #047857;
+  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.3);
+}
+
+/* School-themed color variables */
+:root {
+  --primary-blue: #4F46E5;
+  --primary-green: #059669;
+  --accent-yellow: #F59E0B;
+  --accent-orange: #F97316;
+  --text-dark: #1F2937;
+  --text-light: #6B7280;
+  --bg-light: #F8FAFC;
+  --bg-white: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 14px 22px;
+  }
+}
