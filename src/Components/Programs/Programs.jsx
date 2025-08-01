@@ -13,7 +13,7 @@ const Programs = () => {
       </div>
 
       <div className="program">
-        <img src="https://play-lh.googleusercontent.com/FzOnxrXtZEq82dS1kjSjPBJ83XtdXMnQnivvUGDvfEtvutaDQB-FiWxD_zp6vIdj0J2y" alt="Mathematics" />
+        <img src="https://wallpapercave.com/wp/8iAP1eI.jpg" alt="Mathematics" />
         <div className="caption">
           <img src="https://img.icons8.com/color/48/000000/math.png" alt="Math Icon" />
           <p>Mathematics & Logic</p>

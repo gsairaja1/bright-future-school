@@ -3,23 +3,23 @@ import './ImageCarousel.css';
 
 const images = [
     {
-        src: require('../../assets/gallery-1.png'),
-        alt: 'Gallery 1',
+        src: 'https://i.pinimg.com/originals/15/09/96/150996d5036e9230edc3fc48decaecd4.jpg',
+        alt: 'Beautiful Campus View',
         caption: 'Beautiful Campus View',
     },
     {
-        src: require('../../assets/gallery-2.png'),
-        alt: 'Gallery 2',
+        src: 'https://teachmiddleeastmag.com/wp-content/uploads/2021/05/Promethean-ActivPanel-being-used-within-a-classroom-1-scaled.jpg',
+        alt: 'Modern Classrooms',
         caption: 'Modern Classrooms',
     },
     {
-        src: require('../../assets/gallery-3.png'),
-        alt: 'Gallery 3',
+        src: 'https://vedantinternational.org/images/Vedant-school/school-studentActivity/EngM/ActivityofLearning/activity2.jpg',
+        alt: 'Student Activities',
         caption: 'Student Activities',
     },
     {
-        src: require('../../assets/gallery-4.png'),
-        alt: 'Gallery 4',
+        src: 'https://cdn.edclass.com/wp-content/uploads/schoolchildren-in-a-library.jpg',
+        alt: 'Library and Resources',
         caption: 'Library and Resources',
     },
 ];
