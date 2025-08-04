@@ -8,11 +8,13 @@ A vibrant, modern website for Bright Future School, showcasing academic excellen
 - **Vibrant School Color Scheme**: Blue, green, and yellow colors that are cheerful and engaging
 - **Responsive Design**: Fully responsive across all devices (desktop, tablet, mobile)
 - **Interactive Elements**: Hover effects, smooth transitions, and engaging animations
+- **Accessibility Features**: High contrast mode, reduced motion support, keyboard navigation
 - **Modern Typography**: Poppins and Nunito fonts for a friendly, readable experience
 
 ### 📚 School-Specific Content
 - **Subjects Section**: Science & Discovery, Mathematics & Logic, Arts & Creativity
 - **Interactive School Tour**: Carousel showcasing different school areas
+- **Announcements Board**: Dynamic notices with priority levels and pagination
 - **Student Testimonials**: Real feedback from students and parents
 - **Contact Form**: Parent-friendly inquiry form with grade level selection
 
@@ -23,11 +25,19 @@ A vibrant, modern website for Bright Future School, showcasing academic excellen
 - **Sports Ground**: Teamwork and fitness
 - **Canteen**: Healthy meals and social time
 
+### 📢 Announcements System
+- **Dynamic Notices**: Expandable/collapsible announcement cards
+- **Priority Levels**: Color-coded badges (Important, Notice, Info)
+- **Pagination**: Navigate through multiple pages of announcements
+- **Responsive Layout**: Adapts to different screen sizes
+- **Accessibility**: Screen reader friendly with proper ARIA labels
+
 ### 🎯 Key Sections
 - **Hero Section**: Welcoming message with call-to-action
 - **About Us**: School mission and values
 - **Subjects**: Academic programs and learning areas
 - **School Tour**: Interactive campus exploration
+- **Announcements**: Latest news and important notices
 - **Student Voices**: Testimonials from the community
 - **Contact**: Easy communication with the school
 
@@ -96,6 +106,7 @@ The website is fully responsive and optimized for:
 src/
 ├── Components/
 │   ├── About/          # About school section
+│   ├── Announcements/  # News and notices board
 │   ├── Campus/         # School tour carousel
 │   ├── Contact/        # Contact form and info
 │   ├── Footer/         # Footer with links

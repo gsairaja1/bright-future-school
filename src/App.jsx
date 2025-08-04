@@ -9,7 +9,8 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
-import ImageCarousel from './Components/ImageCarousel';
+import ImageCarousel from './Components/ImageCarousel'
+import Announcements from './Components/Announcements/Announcements';
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
@@ -25,6 +26,8 @@ const App = () => {
         <Title subTitle="School Tour" title="Take a Look Around" />
         <Campus />
         <ImageCarousel />
+        <Title subTitle="ANNOUNCEMENTS" title="Latest News & Updates" />
+        <Announcements />
         <Title subTitle="STUDENT VOICES" title="What Our Students Say" />
         <Testimonials />
         <Title subTitle="Contact Us" title="Get in Touch" />
